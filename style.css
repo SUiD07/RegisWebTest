@@ -1,0 +1,56 @@
+
+        @font-face {
+            font-family: 'Kanit';
+            src: url(./Kanit/Kanit-Regular.ttf);
+        }
+        body{
+            font-family: 'Kanit';
+        }
+        .container{
+            width: 100%;
+            max-width: 640px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: gainsboro;
+            padding: 20px;
+        }
+        .header{
+            font-size: 40px;
+            text-align: center;
+            color: #B00020;
+        }
+        .header-form{
+            width: 140px;
+        }
+        .flex{
+            display: flex;
+        }
+        .form-input{
+            margin-bottom: 10px;
+        }
+        input.form, textarea{
+            border: 1px gainsboro solid;
+            width: 100%;
+        }
+        /*input ที่เป้น class form*/
+        .center{
+            text-align: center;
+        }
+        .button{
+            border: 0;
+            height: 40px;
+            width: 50%;
+            background-color: #B00020;
+            color: white;
+        }
+        @media screen and (max-width: 768px) {
+            .flex{
+                flex-direction: column;
+            }
+            .header{
+                font-size: 24px;
+            }
+            .button{
+                width: 100%;
+            }
+        }
