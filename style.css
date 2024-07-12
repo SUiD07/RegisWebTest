@@ -1,7 +1,7 @@
 
         @font-face {
             font-family: 'Kanit';
-            src: url(./Kanit/Kanit-Regular.ttf);
+            src: url(Kanit-Regular.ttf);
         }
         body{
             font-family: 'Kanit';
